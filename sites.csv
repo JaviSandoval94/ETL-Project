@@ -1,0 +1,11 @@
+﻿site_id,site_name,client_id,tarifa_cfe,tarifa2,division_cfe,tarifa3,zona
+15099,Restaurante 01,1,GDMTH,HM,Jalisco,NULL,GDL
+36983,Restaurante 02,1,GDMTH,HM,Golfo Norte,NULL,MTY
+38716,Restaurante 03,1,GDMTH,HM,Peninsular,NULL,CUN
+26804,Restaurante 04,1,GDMTH,HM,Valle de México Centro,NULL,CDMX
+32703,Restaurante 05,1,GDMTH,HM,Golfo Norte,NULL,MTY
+26800,Restaurante 06,1,GDMTH,HM,Norte,NULL,CHI
+23623,Restaurante 07,1,GDMTH,HM,Sureste,NULL,TAB
+19865,Restaurante 08,1,GDMTH,HM,Golfo Norte,NULL,MTY
+19731,Restaurante 09,1,GDMTH,HM,Bajío,NULL,GTO
+19863,Restaurante 10,1,GDMTH,HM,Golfo Norte,NULL,MTY
