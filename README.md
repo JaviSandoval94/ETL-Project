@@ -1,0 +1,4 @@
+# ETL-Project
+The purpose of our project was to create a database containing information of energy consumption in restaurants across the following four regions in Mexico in the last six months: CDMX, Guadalajara, Monterrey and Cancún. The final database should contain information of each of the most relevant consumption categories in the restaurant industry (HVAC, illumination, ventilation, kitchen, machinery and general contacts) and provide a comprehensible data frame to allow for comparisons using weather variables and commercial activity of each site.<br>
+<br>
+To do so, we perfomed the ETL operations (Extraction, Transformation and Loading) on different sources of data from csv files and data requests from web API's. The data was transformed using the Pandas library on Jupyter Notebook and loaded into a PostgreSQL database using PGAdmin and SQLAlchemy.
