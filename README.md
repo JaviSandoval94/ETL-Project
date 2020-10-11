@@ -6,8 +6,6 @@ The purpose of our project was to create a database containing information of en
 The original information was found in csv format in three different files and in JSON format from an API:
 * `sites.csv`: This file contains sales and customers information of ten different sites, classified in eight different fields. The information in this file contains additional information of each site, including their tariff category and division. The columns required for the rest of the project are the `site_id`, `site_name` and `zone`. For the purpose of this project, a sample of only four regions was required and the data had to be filtered to just the first four restaurants in the list.
 
-![sites](https://github.com/JaviSandoval94/ETL-Project/blob/master/pictures/sites.png)
-
 | site_id | site_name      | client_id | tarifa_cfe | tarifa2 | division_cfe           | tarifa3 | zona |
 |---------|----------------|-----------|------------|---------|------------------------|---------|------|
 | 15099   | Restaurante 01 | 1         | GDMTH      | HM      | Jalisco                | NULL    | GDL  |
