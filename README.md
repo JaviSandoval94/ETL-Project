@@ -43,7 +43,7 @@ Additional steps in the transformation process included data type transformation
 ## Load
 The final database contains six tables in total, related to each other according to the following diagram. These tables were loaded into PostgreSQL using PGAdmin.
 
-![db-diagram](https://github.com/JaviSandoval94/ETL-Project/blob/master/pictures/ETL-Project_DB_Diagram.jpeg)
+![db-diagram](https://github.com/JaviSandoval94/ETL-Project/blob/master/pictures/ETL-Project_DB_Diagram.jpg)
 
 The reason that the information was created in this format was to normalize the data as much as possible. Our final database specifies daily data across all the tables, allowing for daily categorizations of consumption categories (HVAC, illumination, kitchen, ventilation, machinery and general contacts) according to weather data and commercial activity (sales and customers).
 ## Final remarks
