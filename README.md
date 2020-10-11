@@ -8,13 +8,25 @@ The original information was found in csv format in three different files and in
 
 ![sites](https://github.com/JaviSandoval94/ETL-Project/blob/master/pictures/sites.png)
 
+| site_id | site_name      | client_id | tarifa_cfe | tarifa2 | division_cfe           | tarifa3 | zona |
+|---------|----------------|-----------|------------|---------|------------------------|---------|------|
+| 15099   | Restaurante 01 | 1         | GDMTH      | HM      | Jalisco                | NULL    | GDL  |
+| 36983   | Restaurante 02 | 1         | GDMTH      | HM      | Golfo Norte            | NULL    | MTY  |
+| 38716   | Restaurante 03 | 1         | GDMTH      | HM      | Peninsular             | NULL    | YUC  |
+| 26804   | Restaurante 04 | 1         | GDMTH      | HM      | Valle de México Centro | NULL    | CDMX |
+| 32703   | Restaurante 05 | 1         | GDMTH      | HM      | Golfo Norte            | NULL    | MTY  |
+
 * `measurements.csv`: This file contains power and energy consumption data of all the devices in each of the original ten sites. The data was collected for the last six months in intervals of 15 minutes. In addition, each of the devices is categorized into four categories: HVAC, Illumination (Ilum), Ventilation (Iny_Ext), Machinery (Mach), Kitchen (Cocina) and electrical contacts in general (Contactos).
 
-![measurements](https://github.com/JaviSandoval94/ETL-Project/blob/master/pictures/measurements.png)
+| device_id | power(kW) | energy(kWh) | site_id | category | device_name   | Fecha      | Hora          |
+|-----------|-----------|-------------|---------|----------|---------------|------------|---------------|
+| 44989     | 3.2694    | 0.81735     | 15099   | Ilum     | Iluminación A | 01/11/2019 | 06:00:00 p.m. |
+| 44989     | 3.2839    | 0.820975    | 15099   | Ilum     | Iluminación A | 01/11/2019 | 06:15:00 p.m. |
+| 44989     | 3.6099    | 0.902475    | 15099   | Ilum     | Iluminación A | 01/11/2019 | 06:30:00 p.m. |
+| 44989     | 3.3515    | 0.837875    | 15099   | Ilum     | Iluminación A | 01/11/2019 | 06:45:00 p.m. |
+| 44989     | 3.2893    | 0.822325    | 15099   | Ilum     | Iluminación A | 01/11/2019 | 07:00:00 p.m. |
 
 * `ventas.csv`: This file contains information of the sales and customers of each of the original ten sites. All the sales are given in Mexican pesos (MXN) and provided in daily intervals for the last six months. In addition, the data needs to be filtered to contain only the desired four sites.
-
-![ventas](https://github.com/JaviSandoval94/ETL-Project/blob/master/pictures/ventas.png)
 
 * Weather data: The data was extracted from the Premium API of “World Weather Online”. The requested data was obtained based on the location of each restaurant (4). Once the data was obtained, all the columns were extracted from the JSON and converted into a data frame. Finally, the non-desired columns were dropped.
 
